@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>备忘录</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <!--<link rel="stylesheet" href="css/jquery-ui-timepicker-addon.min.css">-->
+
+  <link rel="stylesheet" href="css/jquery.datetimepicker.min.css" />
+</head>
+<body>
+  <div class="msg">
+    <span class="msg-content"></span>
+    <button type="button" class="understand">明白</button>
+  </div>
+  <div class="container"> <!--容器-->
+    <h1>我的备忘录</h1>
+    <div class="add-task"> <!--添加任务-->
+      <input type="text" placeholder="备忘信息" autocomplete="false" id="content"/>
+      <button type="submit" id="submit">提交</button>
+    </div>
+    <div class="task-list"> <!--任务列表-->
+
+    </div>
+    <button type="button" class="empty">清空</button>
+    <div class="task-detail clearfloat"> <!--任务细节-->
+
+    </div>
+    <div class="task-detail-mask">
+
+    </div>
+  </div>
+  <audio src="music/小米铃声.mp3" class="audio" controls loop></audio>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!--<script type="text/javascript" src="js/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-sliderAccess.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-timepicker-addon.min.js"></script>-->
+  <script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>
+  <script type="text/javascript" src="js/store.min.js"></script>
+  <script type="text/javascript" src="js/base.js"></script>
+</body>
+</html>
